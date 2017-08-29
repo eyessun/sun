@@ -4,6 +4,7 @@
     <title>index</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
     <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
@@ -51,30 +52,33 @@
   <body>
     <div id="base" class="">
 
-      <!-- Unnamed (矩形) -->
-      <div id="u0" class="ax_default box_1">
-        <div id="u0_div" class=""></div>
-        <!-- Unnamed () -->
-        <div id="u1" class="text" style="visibility: visible;">
-          <p><span>这是测试原型</span></p>
-        </div>
-      </div>
+      <!-- Unnamed (动态面板) -->
+      <div id="u0" class="ax_default">
+        <div id="u0_state0" class="panel_state" data-label="State1">
+          <div id="u0_state0_content" class="panel_state_content">
 
-      <!-- Unnamed (占位符) -->
-      <div id="u2" class="ax_default placeholder">
-        <img id="u2_img" class="img " src="images/index/u2.png"/>
-        <!-- Unnamed () -->
-        <div id="u3" class="text" style="visibility: visible;">
-          <p><span style="font-family:'ArialMT', 'Arial';">点开</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">看</span></p>
+            <!-- Unnamed (矩形) -->
+            <div id="u1" class="ax_default box_1">
+              <div id="u1_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u2" class="text" style="visibility: visible;">
+                <p><span>第一页</span></p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+        <div id="u0_state1" class="panel_state" data-label="State2" style="display: none; visibility: hidden;">
+          <div id="u0_state1_content" class="panel_state_content">
 
-      <!-- Unnamed (椭圆形) -->
-      <div id="u4" class="ax_default ellipse">
-        <img id="u4_img" class="img " src="images/index/u4.png"/>
-        <!-- Unnamed () -->
-        <div id="u5" class="text" style="visibility: visible;">
-          <p><span>再</span></p>
+            <!-- Unnamed (矩形) -->
+            <div id="u3" class="ax_default box_1">
+              <div id="u3_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u4" class="text" style="visibility: visible;">
+                <p><span>第二页</span></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
