@@ -68,6 +68,13 @@
   width:356px;
   word-wrap:break-word;
 }
+#u1_ann {
+  position:absolute;
+  left:353px;
+  top:-4px;
+  width:1px;
+  height:1px;
+}
 #u3_div {
   position:absolute;
   left:0px;
